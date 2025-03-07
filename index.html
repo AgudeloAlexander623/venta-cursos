@@ -2,24 +2,91 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>CursosOnline</title>
+    <title>CURSOFULLSTACK</title>
 </head>
 <body>
-    <!--este es el navbar donde estara el boton de logueo, el boton de nuevo usuario y el logo de la pg-->
-    <nav name="navbar">
+    <header>
+        <div class="container">
+            <nav>
+            <p class="logo">logo</p>
+            <a href="#">Productos</a>
+            <a href="#">Cursos Cortos</a>
+            <a href="#">Crear Cuenta</a>
+            <a href="#">Iniciar Secion</a>
+            <a href="#">Contactanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <H1>VENTA DE CURSO</H1>
+        <!--creamos un boton para iniciar secion con una cuenta y mantener una racha-->
+        <button><a href="#">Empieza Ya!</a></button>
+        </div>
+    </section>
+
+    <section id="descripcion">
+        <div class="img-container">
+            <h2>Venta de cursos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Minus iusto nesciunt reiciendis, excepturi nobis totam iure 
+            iste, qui cumque vitae quidem quod. Praesentium 
+            harum cum itaque veniam ullam, dolores impedit?</p>
+        </div>
+    </section>
+
+    <section id="programas">
+        <div class="container">
+            <h2>Explora Nuestros Cursos!</h2>
+            <div class="carta">
+                <h3>Curso de CSV</h3>
+                <p>Curso de Git y GitHub: 10 horas de contenido práctico. 
+                Aprende desde lo básico hasta repositorios, 
+                ramas, colaboración y más. Ideal para principiantes y 
+                quienes buscan mejorar sus habilidades en control de 
+                versiones. ¡Domina estas herramientas esenciales para 
+                desarrollo de software!</p>
+                <button><a href="#">Iniciar Curso</a></button>
+            </div>
+            <div class="carta">
+                <h3>Curso de FrontEnd</h3>
+                <p>Curso de Frontend: Domina HTML, CSS y JavaScript 
+                para crear sitios web interactivos. 
+                Aprende a estructurar contenido, diseñar estilos y 
+                añadir funciones básicas con JS. 
+                Ideal para iniciar en desarrollo web. 
+                ¡Conviértete en un experto en creación de 
+                interfaces atractivas y funcionales!</p>
+                <button><a href="#">Iniciar Curso</a></button>
+            </div>
+            <div class="carta">
+                <h3>Curso de BackEnd</h3>
+                <p>Explora cursos de programación con Python, 
+                PHP y JS del lado del servidor. 
+                Domina frameworks como Docker, Vue, Laravel y React. 
+                Ideal para desarrolladores que buscan potenciar 
+                sus habilidades en backend y frontend. ¡Aprende y 
+                crea aplicaciones web modernas y escalables</p>
+                <button><a href="#">Iniciar Curso</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
         <ul>
-            <li><img src="" alt=""></li>
-            <li><button><a href="Ajustes.html">ajustes</a></button>
-            <li><button><a href="ingresar.html">Inicio de secion</a></button></li>
-            <li><button><a href="crear.html">Crear Cuenta</a></button></li>
+            <li>cursos 100% online</li>
+            <li><a href="#">soporte tecnico</a></li>
+            <li><a href="#">contactanos</a></li>
         </ul>
-    </nav>
-    <!--este es el encabesado donde haremos y pondremos el -->
-    <div class="encabesado">
-        
-    </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Ventadecursos2025</p>
+        </div>
+    </footer>
 </body>
 </html>
